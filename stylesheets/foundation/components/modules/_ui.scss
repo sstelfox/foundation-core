@@ -267,7 +267,7 @@
 
   dl.sub-nav { display: block; width: auto; overflow: hidden; margin: -4px 0 18px -9px; padding-top: 4px;
 
-    dt, dd { float: left; display: inline; margin-left: 9px; margin-bottom: 4px; }
+    dt, dd { float: $defaultFloat; display: inline; margin-left: 9px; margin-bottom: 4px; }
     dt { color: #999; font-weight: $bodyFontWeight; }
     dd a { text-decoration: none; @include border-radius(1000px); }
     dd.active a { font-weight: bold; background: $mainColor; color: #fff; padding: 3px 9px; cursor: default; }
@@ -278,7 +278,7 @@
 
   ul.pagination { display: block; height: 24px; margin-left: -5px;
 
-    li { float: left; display: block; height: 24px; color: #999; font-size: ms(0); margin-left: 5px;
+    li { float: $defaultFloat; display: block; height: 24px; color: #999; font-size: ms(0); margin-left: 5px;
 
       a { display: block; padding: 1px 7px 1px; color: #555; }
       &:hover a, a:focus { background: darken($white, 10%); }
@@ -295,7 +295,7 @@
 
   ul.breadcrumbs { display: block; background: lighten($secondaryColor, 5%); padding: 6px 10px 7px; border: 1px solid $secondaryColor; @include border-radius(2px); overflow: hidden;
 
-    li { margin: 0; padding: 0 12px 0 0; float: left; list-style: none;
+    li { margin: 0; padding: 0 12px 0 0; float: $defaultFloat; list-style: none;
 
       a, span { text-transform: uppercase; @include font-size(11); padding-left: 12px; }
       &:first-child a, &:first-child span { padding-left: 0; }
@@ -325,7 +325,7 @@
   /* Link List */
   ul.link-list { margin: 0 0 ms(1) -22px; padding: 0; list-style: none; overflow: hidden;
 
-    li { list-style: none; float: left; margin-left: 22px; display: block;
+    li { list-style: none; float: $defaultFloat; margin-left: 22px; display: block;
 
       a { display: block; }
     }
