@@ -40,7 +40,7 @@
 	  				<img src="http://placehold.it/200x200" />
 	  			</div>
 	  			<div class="ten phone-three columns">
-	  				<p><strong><a href="">لطفي</a> قال:</strong><br />أما كل دخول مكّن عجّل, الصعداء الإحتفاظ الأمريكي، مكن في. رئيس الدنمارك ان عدد, من أسر للغزو، والنرويج. تاريخ إحكام الإعتداء ما على, دون ثم التخطيط البريطانيين. تم ومن تعديل رجوعهم ابتدعها. تحت نهاية العصبة ٣٠, مع سقط لقهر لإعلان العالم،, حدى أم أخرى المزيفة. لعملة استمرار</p>
+	  				<p><strong><a href="">لطفي</a> قال:</strong><br />أما كل دخول مكّن عجّل, الصعداء الإحتفاظ الأمريكي، مكن في. رئيس الدنمارك ان عدد, رجوعهم ابتدعها. تحت نهاية العصبة ٣٠, مع سقط لقهر لإعلان العالم،, حدى أم أخرى المزيفة. لعملة استمرار</p>
 	  				<div class="row">
 	  					<div class="four phone-one columns">
 	  						<img src="http://placehold.it/300x300" />
@@ -96,7 +96,7 @@
 			</dl>
 			<ul class="tabs-content">
 				<li id="recentTab" class="active">
-					<h5>Photos</h5>
+					<h5>صور</h5>
 					<ul class="block-grid four-up">
 						<li><img src="http://placehold.it/100x100" /></li>
 						<li><img src="http://placehold.it/100x100" /></li>
@@ -117,7 +117,7 @@
 					<strong><a href="#">A Sweet Video</a></strong> &bull; YouTube
 				</li>
 				<li id="interestingTab">
-					<h5>Photos</h5>
+					<h5>صور</h5>
 					<ul class="block-grid four-up">
 						<li><img src="http://placehold.it/100x100" /></li>
 						<li><img src="http://placehold.it/100x100" /></li>

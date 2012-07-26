@@ -102,7 +102,7 @@ that IE7/8 do not support :nth-child.
 
   .block-grid { display: block; overflow: hidden; padding: 0;
 
-    &>li { display: block; height: auto; float: left; }
+    &>li { display: block; height: auto; float: $defaultFloat; }
   }
 
   .block-grid.one-up { margin: 0; }
