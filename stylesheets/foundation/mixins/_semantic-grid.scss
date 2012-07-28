@@ -21,7 +21,7 @@
 
   // Offset Mixin, include after a column mixin to manipulate its grid offset.
 
-  @mixin offsetBy($offset:1) { margin-left: gridCalc($offset, $totalColumns); }
+  @mixin offsetBy($offset:1) { margin-#{$defaultFloat}: gridCalc($offset, $totalColumns); }
 
   // Push/Pull Mixins, include after a column mixin to manipulate stack ordering.
 
@@ -30,7 +30,7 @@
 
   // Mobile Row, synctax is @include mobile-row();
 
-  @mixin mobileRow() { @include respondTo(smallScreen) { width: auto; min-width: 0; margin-left: 0; margin-right: 0; @include clearfix(); } }
+  @mixin mobileRow() { @include respondTo(smallScreen) { width: auto; min-width: 0; margin-#{$defaultFloat}: 0; margin-#{$defaultOpposite}: 0; @include clearfix(); } }
 
   // Mobile Columns, syntax is @include mobile-column(#);
 

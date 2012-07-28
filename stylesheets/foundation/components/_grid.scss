@@ -28,7 +28,7 @@
   // Creating .row .offset-by-# classes
   @for $i from 1 through $totalColumns - 2 {
     .row {
-      .offset-by-#{convert-number-to-word($i)} { margin-left: gridCalc($i, $totalColumns); }
+      .offset-by-#{convert-number-to-word($i)} { margin-#{$defaultFloat}: gridCalc($i, $totalColumns); }
     }
   }
 
@@ -48,9 +48,9 @@
   /* Mobile Grid and Overrides ---------------------- */
 
   @media only screen and (max-width: $screenSmall - 1) {
-    body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+    body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-#{$defaultFloat}: 0; margin-#{$defaultOpposite}: 0; padding-#{$defaultFloat}: 0; padding-#{$defaultOpposite}: 0; }
 
-    .row { width: auto; min-width: 0; margin-left: 0; margin-right: 0; }
+    .row { width: auto; min-width: 0; margin-#{$defaultFloat}: 0; margin-#{$defaultOpposite}: 0; }
     .column, .columns { width: auto !important; float: none;  }
     .column:last-child, .columns:last-child { float: none; }
     [class*="column"] + [class*="column"]:last-child { float: none; }
@@ -58,7 +58,7 @@
     .column:after, .columns:after { clear: both; }
 
     // Placeholder classes for mobile grid overrides
-    %no-left-margin { margin-left: 0 !important; }
+    %no-left-margin { margin-#{$defaultFloat}: 0 !important; }
     %left-auto { left: auto; }
     %right-auto { right: auto; }
 
@@ -73,7 +73,7 @@
     /* Mobile 4-column Grid */
     @for $i from 1 through $mobileTotalColumns {
       .row {
-        .mobile-#{convert-number-to-word($i)} { width: gridCalc($i, $mobileTotalColumns) !important; float: left; padding: 0 ($columnGutter/2);
+        .mobile-#{convert-number-to-word($i)} { width: gridCalc($i, $mobileTotalColumns) !important; float: $defaultFloat; padding: 0 ($columnGutter/2);
           &:last-child { float: right; }
         }
         &.collapse {
@@ -126,6 +126,6 @@ that IE7/8 do not support :nth-child.
 
   /* Mobile Block Grids */
   @media only screen and (max-width: $screenSmall - 1) {
-    .block-grid.mobile { margin-left: 0; }
-    .block-grid.mobile > li { float: none; width: 100%; margin-left: 0; }
+    .block-grid.mobile { margin-#{$defaultFloat}: 0; }
+    .block-grid.mobile > li { float: none; width: 100%; margin-#{$defaultFloat}: 0; }
   }

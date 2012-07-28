@@ -46,8 +46,8 @@
 	  						<img src="http://placehold.it/300x300" />
 	  					</div>
 	  					<div class="eight phone-three columns">
-	  						<p><a href="#">Huge Trees and You: How to live in a giant tree</a><br />
-	  						This is a website for people who live in gigantic trees. Learn about how to go from branch to branch, and where to keep your crazy screaming flying dragon thing.</p>
+	  						<p><a href="#">رجوعهم ابتدعها</a><br />
+	  						رئيس الدنمارك ان عدد, رجوعهم ابتدعها. تحت نهاية العصبة ٣٠, مع سقط لقهر لإعلان العالم،, حدى أم أخرى المزيفة. لعملة استمرار</p>
 	  					</div>
 	  				</div>
 
@@ -91,8 +91,8 @@
 	  	</div>
 	  	<div class="four columns offset-by-one">
 	  		<dl class="tabs">
-			  <dd class="active"><a href="#recent" class="active">Recent Media</a></dd>
-			  <dd><a href="#interesting">Top Media</a></dd>
+			  <dd class="active"><a href="#recent" class="active">آخر الأخبار</a></dd>
+			  <dd><a href="#interesting">أخبار مهمة</a></dd>
 			</dl>
 			<ul class="tabs-content">
 				<li id="recentTab" class="active">
