@@ -5,9 +5,11 @@ This is fork of zurb/foundation, the original can be found at https://github.com
 
 So why the fork? Zurb foundation doesn't provide an easy way to download just the SASS files without using a package manager. When the rails plugin wasn't loading it's assets correctly I was left with two choices. Trace through the code to solve the issue and submit a pull request to get it into the master branch or bring in the assets by hand to known good locations.
 
-While it would have been better for the community as a whole if I had fixed the rails gem, I did need the quick solution. There have also been quite a few times when I was developing a static site that didn't need any the heaviness of a framework (and just for development) I would include a javascript SASS compiler, and a javascript coffee-script compiler.
+While it would have been better for the community as a whole if I had fixed the rails gem, I did need the quick solution. 
 
-I will probably be switching over to one of the LESS versions of Foundation later as it is in my humble opinion, far superior than SASS. If you use this repository beware that it will probably not be maintained.
+I will be switching over to one of the LESS versions of Foundation, as LESS is in my humble opinion, far superior than SASS and there is a rock-solid in-browser compiler for quick development (no you should not do this for production).
+
+This repository should be consider dead as I won't be updating it anymore but it may still be useful to some people out there.
 
 MIT Open Source License
 =======================
